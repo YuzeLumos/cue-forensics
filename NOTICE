@@ -1,0 +1,12 @@
+Release candidate for author review. An original software license has not been
+selected by the authors. This notice does not grant an open-source license.
+
+The original mathematical implementation and frozen research states are
+preserved with source hashes in SOURCE_MANIFEST.json. The cuefd compatibility
+namespace is retained only for the frozen projection/base serialization and
+the original evidence controller; it is not the older experiment CLI.
+
+CommunityForensics and DINO-family encoders, datasets, and other upstream assets
+retain their own terms. No source images or encoder model weights are included.
+The numeric projection/anchor/base objects included here are research artifacts;
+their release terms and provenance must be confirmed before public publication.

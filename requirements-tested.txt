@@ -1,0 +1,12 @@
+# Exact runtime used by the local CPU verification. No GPU frameworks required.
+numpy==2.1.3
+scikit-learn==1.6.1
+scipy==1.15.3
+joblib==1.4.2
+threadpoolctl==3.5.0
+pytest==8.3.4
+# Test-runner transitive dependencies in the clean verification environment.
+colorama==0.4.6
+iniconfig==2.3.1
+packaging==26.3
+pluggy==1.7.0

@@ -1,0 +1,32 @@
+[
+  {
+    "benchmark": "UFD",
+    "api_error": 0.0,
+    "stationarity": 6.821378192250152e-16
+  },
+  {
+    "benchmark": "GenImage",
+    "api_error": 0.0,
+    "stationarity": 1.1360561163254453e-15
+  },
+  {
+    "benchmark": "AIGC-DB",
+    "api_error": 0.0,
+    "stationarity": 6.319158149281307e-16
+  },
+  {
+    "benchmark": "AIGIBench",
+    "api_error": 0.0,
+    "stationarity": 3.614883760647094e-16
+  },
+  {
+    "benchmark": "WildFake",
+    "api_error": 0.0,
+    "stationarity": 4.4583984201816e-16
+  },
+  {
+    "benchmark": "Chameleon",
+    "api_error": 0.0,
+    "stationarity": 6.635759613695911e-16
+  }
+]

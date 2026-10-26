@@ -1,0 +1,330 @@
+{
+  "schema": "cue-source-manifest-v1",
+  "entries": [
+    {
+      "path": "src/cue_joint/core.py",
+      "source_sha256": "94f6b8565772feef30048b648c7c9fd35dd4ac50c95cb80d0e2eb342108c4754",
+      "sha256": "94f6b8565772feef30048b648c7c9fd35dd4ac50c95cb80d0e2eb342108c4754",
+      "bytes": 15895,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "joint_within_integration_20260919/joint_within_core.py"
+    },
+    {
+      "path": "src/cue_joint/coordinate_view.py",
+      "source_sha256": "6af10e295a3101fec6d76f0f6981901f0124b93feea9cffbaafa561600885f00",
+      "sha256": "6af10e295a3101fec6d76f0f6981901f0124b93feea9cffbaafa561600885f00",
+      "bytes": 1191,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "joint_within_integration_20260919/coordinate_view.py"
+    },
+    {
+      "path": "src/cue_joint/lifecycle.py",
+      "source_sha256": "5f7fff4f6dacbf7c1a6073dc7647401dd4a91f6048bdfdd3296698e5e450bf86",
+      "sha256": "69052869d023165906ed364a6bf3ff5de8dd2fe8b02c06a59743fd1cc26cab89",
+      "bytes": 3440,
+      "changes": [
+        {
+          "old": "from joint_within_core import",
+          "new": "from .core import"
+        }
+      ],
+      "source_root": "formal_history",
+      "source_relative": "joint_within_integration_20260919/lifecycle_bridge.py"
+    },
+    {
+      "path": "src/cue_joint/snapshot.py",
+      "source_sha256": "a17813a0f3de3843cfa37be42af34d2b0926abab30f9b623ca6920dc90698219",
+      "sha256": "699cd15f315192a2eb4cb9afa3fe467ce9b1c3e963bfca19fa417a18ae700caf",
+      "bytes": 2829,
+      "changes": [
+        {
+          "old": "from joint_within_core import",
+          "new": "from .core import"
+        },
+        {
+          "old": "from lifecycle_bridge import",
+          "new": "from .lifecycle import"
+        }
+      ],
+      "source_root": "formal_history",
+      "source_relative": "joint_within_integration_20260919/system_snapshot.py"
+    },
+    {
+      "path": "src/frozen_cf_runtime.py",
+      "source_sha256": "9b367be1dab6f28b996f98542f8beb7b1192928171d2fc0ef3143f569ba69d93",
+      "sha256": "9b367be1dab6f28b996f98542f8beb7b1192928171d2fc0ef3143f569ba69d93",
+      "bytes": 535,
+      "changes": [],
+      "source_root": "formal_cf",
+      "source_relative": "frozen_cf_runtime.py"
+    },
+    {
+      "path": "src/cuefd/__init__.py",
+      "source_sha256": "1fc85eef556adfc28abd91679e7f861d6e49e39d244023706937b16533a8c75f",
+      "sha256": "1fc85eef556adfc28abd91679e7f861d6e49e39d244023706937b16533a8c75f",
+      "bytes": 83,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "vendor/cuefd/__init__.py"
+    },
+    {
+      "path": "src/cuefd/methods/baselines.py",
+      "source_sha256": "d0089291f582b16047666d8d190eb850b7beb120dd0c4f40cf7a4111bd39f57e",
+      "sha256": "d0089291f582b16047666d8d190eb850b7beb120dd0c4f40cf7a4111bd39f57e",
+      "bytes": 6547,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "vendor/cuefd/methods/baselines.py"
+    },
+    {
+      "path": "src/cuefd/methods/cuefd_v2.py",
+      "source_sha256": "fbbb4af3c52941bdb819d8eaf326ea3aa50ea54afee0d783a70727078dd6be92",
+      "sha256": "fbbb4af3c52941bdb819d8eaf326ea3aa50ea54afee0d783a70727078dd6be92",
+      "bytes": 17646,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "vendor/cuefd/methods/cuefd_v2.py"
+    },
+    {
+      "path": "src/cuefd/methods/evidence_lifecycle_v2.py",
+      "source_sha256": "67b5bd9e3390cd4ff7a1e6d03e3cfefb8de5a82bf9e4bf6f60677d788be40c1a",
+      "sha256": "67b5bd9e3390cd4ff7a1e6d03e3cfefb8de5a82bf9e4bf6f60677d788be40c1a",
+      "bytes": 37622,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "vendor/cuefd/methods/evidence_lifecycle_v2.py"
+    },
+    {
+      "path": "src/cuefd/methods/v21_candidate.py",
+      "source_sha256": "861c923c39cd196e3c02a3b876daaa1cd6f6c7e3a58086b6794bca5a43389039",
+      "sha256": "861c923c39cd196e3c02a3b876daaa1cd6f6c7e3a58086b6794bca5a43389039",
+      "bytes": 7831,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "vendor/cuefd/methods/v21_candidate.py"
+    },
+    {
+      "path": "src/cuefd/methods/__init__.py",
+      "source_sha256": "c13a1988556fb9c5b950363b319c81de5a5bfe8a77b0063f722ccaf27770e50e",
+      "sha256": "c13a1988556fb9c5b950363b319c81de5a5bfe8a77b0063f722ccaf27770e50e",
+      "bytes": 36,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "vendor/cuefd/methods/__init__.py"
+    },
+    {
+      "path": "assets/dino/base.pkl",
+      "source_sha256": "7e8ae62d8dfbe8599c3c6dcf337d4b3c5d4db8e1d42e942d036e86c4036c950a",
+      "sha256": "7e8ae62d8dfbe8599c3c6dcf337d4b3c5d4db8e1d42e942d036e86c4036c950a",
+      "bytes": 8622975,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "base.pkl"
+    },
+    {
+      "path": "assets/dino/integrated_H0_K4.snapshot.json",
+      "source_sha256": "3e07abbedcf8d6adbe8b1f83893eb4a4cd1592204fb72227ac6d2fc4e5383daf",
+      "sha256": "3e07abbedcf8d6adbe8b1f83893eb4a4cd1592204fb72227ac6d2fc4e5383daf",
+      "bytes": 3796791,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "joint_within_integrated_replay_20260919/integrated_H0_K4.snapshot.json"
+    },
+    {
+      "path": "assets/dino/integrated_H32_K4.snapshot.json",
+      "source_sha256": "21da8edb46f9cfc70f7ed94d90d6488bb1bfc5d946fb2d48be24f1dc59c7ffe8",
+      "sha256": "21da8edb46f9cfc70f7ed94d90d6488bb1bfc5d946fb2d48be24f1dc59c7ffe8",
+      "bytes": 11365175,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "joint_within_integrated_replay_20260919/integrated_H32_K4.snapshot.json"
+    },
+    {
+      "path": "assets/dino/heads.npz",
+      "source_sha256": "8a8ee3312088c8e9019232d1c56e215271ce4293f80bcf550f6a0f6fbbf55543",
+      "sha256": "8a8ee3312088c8e9019232d1c56e215271ce4293f80bcf550f6a0f6fbbf55543",
+      "bytes": 757032,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "joint_within_integrated_replay_20260919/heads.npz"
+    },
+    {
+      "path": "assets/dino/HEAD_INDEX.csv",
+      "source_sha256": "a3609d88b66d2d16246eb9210e25e47aa453f0e55e508906a02395bdb84e58ec",
+      "sha256": "a3609d88b66d2d16246eb9210e25e47aa453f0e55e508906a02395bdb84e58ec",
+      "bytes": 56690,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "joint_within_integrated_replay_20260919/HEAD_INDEX.csv"
+    },
+    {
+      "path": "assets/dino/RESOURCES_AND_LABELS.csv",
+      "source_sha256": "8e52db1eb98d4afc33bd7582e6e69f1eb0680a0adfd1b64601bc513e78b7ba83",
+      "sha256": "8e52db1eb98d4afc33bd7582e6e69f1eb0680a0adfd1b64601bc513e78b7ba83",
+      "bytes": 58566,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "joint_within_integrated_replay_20260919/RESOURCES_AND_LABELS.csv"
+    },
+    {
+      "path": "assets/dino/CLOSEOUT.json",
+      "source_sha256": "da9fd69821a2f37b01b492b0e3120fec0e83d13c32dc8192b650f8d3239da7c6",
+      "sha256": "da9fd69821a2f37b01b492b0e3120fec0e83d13c32dc8192b650f8d3239da7c6",
+      "bytes": 516,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "joint_within_integrated_replay_20260919/CLOSEOUT.json"
+    },
+    {
+      "path": "assets/cf/base.pkl",
+      "source_sha256": "0388fee0cdcd88e1ca747c9ba9c6425f596214cca9523c44d26d7e3d35744bdf",
+      "sha256": "0388fee0cdcd88e1ca747c9ba9c6425f596214cca9523c44d26d7e3d35744bdf",
+      "bytes": 7123182,
+      "changes": [],
+      "source_root": "formal_cf",
+      "source_relative": "base/base.pkl"
+    },
+    {
+      "path": "assets/cf/geometry.npz",
+      "source_sha256": "580b605d288217ecb22379fc5d93d1c0ea6a240638f8e08670e763a7c625d5d3",
+      "sha256": "580b605d288217ecb22379fc5d93d1c0ea6a240638f8e08670e763a7c625d5d3",
+      "bytes": 490161,
+      "changes": [],
+      "source_root": "formal_cf",
+      "source_relative": "base/geometry.npz"
+    },
+    {
+      "path": "assets/cf/states/UFD_core.json",
+      "source_sha256": "393edd5065a5f7a6a146605573cbf471d1f1276e43bbb08448ac44c699adb947",
+      "sha256": "393edd5065a5f7a6a146605573cbf471d1f1276e43bbb08448ac44c699adb947",
+      "bytes": 2814536,
+      "changes": [],
+      "source_root": "formal_cf",
+      "source_relative": "results/UFD_core.json"
+    },
+    {
+      "path": "assets/cf/states/GenImage_core.json",
+      "source_sha256": "a675db32ee725e1d7e32d506c2a8b2600cb4043e780ae3e6b111df6266f4b700",
+      "sha256": "a675db32ee725e1d7e32d506c2a8b2600cb4043e780ae3e6b111df6266f4b700",
+      "bytes": 2814696,
+      "changes": [],
+      "source_root": "formal_cf",
+      "source_relative": "results/GenImage_core.json"
+    },
+    {
+      "path": "assets/cf/states/AIGC-DB_core.json",
+      "source_sha256": "cc9801f72426a85379ea606168c77d00bf2305a489c1f02f31ed1823c4bb303d",
+      "sha256": "cc9801f72426a85379ea606168c77d00bf2305a489c1f02f31ed1823c4bb303d",
+      "bytes": 2814583,
+      "changes": [],
+      "source_root": "formal_cf",
+      "source_relative": "results/AIGC-DB_core.json"
+    },
+    {
+      "path": "assets/cf/states/AIGIBench_core.json",
+      "source_sha256": "486abe9b513deccd9f7ecce821aa7c126e2bead9e45d4e0fd5916e6ceda1efeb",
+      "sha256": "486abe9b513deccd9f7ecce821aa7c126e2bead9e45d4e0fd5916e6ceda1efeb",
+      "bytes": 2814463,
+      "changes": [],
+      "source_root": "formal_cf",
+      "source_relative": "results/AIGIBench_core.json"
+    },
+    {
+      "path": "assets/cf/states/WildFake_core.json",
+      "source_sha256": "9c521212ab063f952c59552df6bb19363fa3d71d1df0159826ad51424ad09fe8",
+      "sha256": "9c521212ab063f952c59552df6bb19363fa3d71d1df0159826ad51424ad09fe8",
+      "bytes": 2815348,
+      "changes": [],
+      "source_root": "formal_cf",
+      "source_relative": "results/WildFake_core.json"
+    },
+    {
+      "path": "assets/cf/states/Chameleon_core.json",
+      "source_sha256": "cf0183c298e457f464a255d043238b89928e93dea38526b9b91e5e42e80b1519",
+      "sha256": "cf0183c298e457f464a255d043238b89928e93dea38526b9b91e5e42e80b1519",
+      "bytes": 2814480,
+      "changes": [],
+      "source_root": "formal_cf",
+      "source_relative": "results/Chameleon_core.json"
+    },
+    {
+      "path": "assets/cf/METRICS.csv",
+      "source_sha256": "35ea61d1acad38251795c2e2fb1455996f1e431c93628be4873b2f55e4a2b6e8",
+      "sha256": "35ea61d1acad38251795c2e2fb1455996f1e431c93628be4873b2f55e4a2b6e8",
+      "bytes": 12693,
+      "changes": [],
+      "source_root": "formal_cf",
+      "source_relative": "results/METRICS.csv"
+    },
+    {
+      "path": "assets/cf/RESULTS.json",
+      "source_sha256": "933262f76860047227d6bcd8500845abe035b722a438b948caa2fecc66d9976f",
+      "sha256": "933262f76860047227d6bcd8500845abe035b722a438b948caa2fecc66d9976f",
+      "bytes": 4636,
+      "changes": [],
+      "source_root": "formal_cf",
+      "source_relative": "results/RESULTS.json"
+    },
+    {
+      "path": "assets/cf/CHECKS.json",
+      "source_sha256": "0e56a81cc073c8dd7ed6b27e6924d91cac89a28da24b05fddf90af479e0bd555",
+      "sha256": "0e56a81cc073c8dd7ed6b27e6924d91cac89a28da24b05fddf90af479e0bd555",
+      "bytes": 640,
+      "changes": [],
+      "source_root": "formal_cf",
+      "source_relative": "results/CHECKS.json"
+    },
+    {
+      "path": "provenance/cf/PROTOCOL.original.md",
+      "source_sha256": "1162a6fa77fe9e85019ea0dbecd7bb9de0b4c9a4c9dc4add89688477bc098dcf",
+      "sha256": "1162a6fa77fe9e85019ea0dbecd7bb9de0b4c9a4c9dc4add89688477bc098dcf",
+      "bytes": 5374,
+      "changes": [],
+      "source_root": "formal_cf",
+      "source_relative": "PROTOCOL.md"
+    },
+    {
+      "path": "provenance/dino/PROTOCOL.original.md",
+      "source_sha256": "3c0873e778350e2ba1b1f1fc9911f9d933620eb93dd4f7c444958fe553ab7ea1",
+      "sha256": "3c0873e778350e2ba1b1f1fc9911f9d933620eb93dd4f7c444958fe553ab7ea1",
+      "bytes": 4144,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "joint_within_integrated_replay_20260919/PROTOCOL.md"
+    },
+    {
+      "path": "provenance/integration/README.original.md",
+      "source_sha256": "9f11b1831d89cec2e2b17c1b3a9866943a0df9247ed60e9546f9897cd9b06e47",
+      "sha256": "9f11b1831d89cec2e2b17c1b3a9866943a0df9247ed60e9546f9897cd9b06e47",
+      "bytes": 4297,
+      "changes": [],
+      "source_root": "formal_history",
+      "source_relative": "joint_within_integration_20260919/README.md"
+    },
+    {
+      "path": "tests/test_original_evidence_lifecycle.py",
+      "source_sha256": "4e00c07664cfe8a1da272ed122d5741361c723d7d5bd00f539d5544633ff8dc8",
+      "sha256": "4e00c07664cfe8a1da272ed122d5741361c723d7d5bd00f539d5544633ff8dc8",
+      "bytes": 14565,
+      "changes": [],
+      "source_root": "cue_project",
+      "source_relative": "tests/test_evidence_lifecycle_v2.py"
+    },
+    {
+      "path": "tests/test_original_moments.py",
+      "source_sha256": "6b2aac8df5ca7e450edcb634427fa0cf4a669401e0c97d0710c04d562e2fe857",
+      "sha256": "6b2aac8df5ca7e450edcb634427fa0cf4a669401e0c97d0710c04d562e2fe857",
+      "bytes": 9815,
+      "changes": [],
+      "source_root": "cue_project",
+      "source_relative": "tests/test_cuefd_v2.py"
+    }
+  ],
+  "source_roots": {
+    "cue_project": "Logical research-asset root; local absolute mapping is retained separately by the maintainers.",
+    "formal_history": "Logical research-asset root; local absolute mapping is retained separately by the maintainers.",
+    "formal_cf": "Logical research-asset root; local absolute mapping is retained separately by the maintainers."
+  }
+}

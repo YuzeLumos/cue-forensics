@@ -1,0 +1,18 @@
+{
+  "status": "complete_and_stopped",
+  "scope": "previously exposed compatibility replay only",
+  "macro_H32_minus_H0": 0.0166392553420294,
+  "paired95CI": [
+    0.0135502783071205,
+    0.0198525660358043
+  ],
+  "historical_gain_retained_CI_criterion": true,
+  "observed_cost_saving_criterion": true,
+  "lower_cost_conditions": 2,
+  "higher_cost_conditions": 0,
+  "fits": 384,
+  "reserve_access": false,
+  "parameter_changes": false,
+  "manuscript_changed": false,
+  "no_further_experiment": true
+}

@@ -1,0 +1,138 @@
+{
+  "status": "complete_fixed_same_solver_cf_replay",
+  "benchmark_count": 6,
+  "new_fits": 6,
+  "query_rows": 2997,
+  "macro_current_auroc": 0.9921255970027927,
+  "macro_anchor_auroc": 0.9722493579043974,
+  "macro_legacy_auroc": 0.9765827692841592,
+  "macro_delta_anchor_pp": 1.98762390983952,
+  "macro_delta_anchor_ci95_pp": [
+    1.6100938015895718,
+    2.3904555673131536
+  ],
+  "benchmarks_meeting_best_compared_released": 6,
+  "details": [
+    {
+      "benchmark": "UFD",
+      "n_query": 491,
+      "current_auroc": 0.9938105668392406,
+      "anchor_auroc": 0.9750099561927519,
+      "delta_anchor_pp": 1.8800610646488747,
+      "best_released_method": "released:GAPL",
+      "best_released_auroc": 0.9844517456524625,
+      "delta_best_released_pp": 0.935882118677811,
+      "legacy_auroc": 0.9836552502323112,
+      "delta_legacy_pp": 1.0155316606929476,
+      "rank_vs_released": 1,
+      "meets_best_released": true,
+      "delta_anchor_ci95_pp": [
+        1.0813987158999134,
+        2.873422420615069
+      ]
+    },
+    {
+      "benchmark": "GenImage",
+      "n_query": 512,
+      "current_auroc": 0.9967498779296875,
+      "anchor_auroc": 0.9889068603515625,
+      "delta_anchor_pp": 0.7843017578125,
+      "best_released_method": "released:D3",
+      "best_released_auroc": 0.99560546875,
+      "delta_best_released_pp": 0.11444091796875,
+      "legacy_auroc": 0.988922119140625,
+      "delta_legacy_pp": 0.78277587890625,
+      "rank_vs_released": 1,
+      "meets_best_released": true,
+      "delta_anchor_ci95_pp": [
+        0.2452556772775616,
+        1.5336055931392771
+      ]
+    },
+    {
+      "benchmark": "AIGC-DB",
+      "n_query": 512,
+      "current_auroc": 0.9940338134765625,
+      "anchor_auroc": 0.9905853271484375,
+      "delta_anchor_pp": 0.3448486328125,
+      "best_released_method": "released:CommunityForensics",
+      "best_released_auroc": 0.9905853271484375,
+      "delta_best_released_pp": 0.3448486328125,
+      "legacy_auroc": 0.9906463623046875,
+      "delta_legacy_pp": 0.3387451171875,
+      "rank_vs_released": 1,
+      "meets_best_released": true,
+      "delta_anchor_ci95_pp": [
+        0.08509002159648976,
+        0.6738349182261402
+      ]
+    },
+    {
+      "benchmark": "AIGIBench",
+      "n_query": 511,
+      "current_auroc": 0.9884497549019609,
+      "anchor_auroc": 0.9599264705882353,
+      "delta_anchor_pp": 2.8523284313725528,
+      "best_released_method": "released:CommunityForensics",
+      "best_released_auroc": 0.9599264705882353,
+      "delta_best_released_pp": 2.8523284313725528,
+      "legacy_auroc": 0.9665441176470588,
+      "delta_legacy_pp": 2.190563725490202,
+      "rank_vs_released": 1,
+      "meets_best_released": true,
+      "delta_anchor_ci95_pp": [
+        1.921931461552063,
+        4.009767644355494
+      ]
+    },
+    {
+      "benchmark": "WildFake",
+      "n_query": 459,
+      "current_auroc": 0.9947852524630542,
+      "anchor_auroc": 0.9930726600985222,
+      "delta_anchor_pp": 0.17125923645319174,
+      "best_released_method": "released:CommunityForensics",
+      "best_released_auroc": 0.9930726600985222,
+      "delta_best_released_pp": 0.17125923645319174,
+      "legacy_auroc": 0.9929764470443351,
+      "delta_legacy_pp": 0.18088054187190838,
+      "rank_vs_released": 1,
+      "meets_best_released": true,
+      "delta_anchor_ci95_pp": [
+        -0.13497261252679332,
+        0.5046394552967386
+      ]
+    },
+    {
+      "benchmark": "Chameleon",
+      "n_query": 512,
+      "current_auroc": 0.98492431640625,
+      "anchor_auroc": 0.925994873046875,
+      "delta_anchor_pp": 5.8929443359375,
+      "best_released_method": "released:CommunityForensics",
+      "best_released_auroc": 0.925994873046875,
+      "delta_best_released_pp": 5.8929443359375,
+      "legacy_auroc": 0.9367523193359375,
+      "delta_legacy_pp": 4.81719970703125,
+      "rank_vs_released": 1,
+      "meets_best_released": true,
+      "delta_anchor_ci95_pp": [
+        4.192299523347893,
+        7.647142276414162
+      ]
+    }
+  ],
+  "bootstrap": {
+    "draws": 1000,
+    "attempts": 1000,
+    "groups": 2993,
+    "seed": 20260919,
+    "interpretation": "Query-sample variation conditional on one fixed support per benchmark; exposed-standard evaluation"
+  },
+  "update_rule": "Unmodified JointWithinCore; empty additional history, R=I, J=0",
+  "raw_backbone": "CF384",
+  "frozen_anchor": "Official original CF linear head",
+  "lambda_prior": 240.74777421095598,
+  "kappa": 132.8073255390887,
+  "seconds": 1.1862040999985766
+}
