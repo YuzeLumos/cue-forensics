@@ -1,7 +1,7 @@
 {
   "schema": "paper-candidate-release-manifest-v1",
   "candidate": "cue",
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "artifacts": [
     {
       "path": ".gitattributes",
@@ -105,13 +105,13 @@
     },
     {
       "path": "CANDIDATE_MANIFEST.json",
-      "bytes": 8102,
-      "sha256": "ec19aa14f9bdedf6a767a652d7942b98001617a669185b411fc7659d932f55d2"
+      "bytes": 7857,
+      "sha256": "a7e405838cd87c7fe43907f88795d1f615246d13d50eec40b5d2cf5e0cfc7cec"
     },
     {
       "path": "GIT_STORAGE.md",
-      "bytes": 862,
-      "sha256": "c81749f4d8c5cf1fbf20f47bcc3e16e1b4ccbbb258e0c666067968437ec17abd"
+      "bytes": 910,
+      "sha256": "b595e256ed631462b87dac76df7f37d3a2a3475587337ccf75c3f8438e8e6907"
     },
     {
       "path": "NOTICE",
@@ -134,14 +134,19 @@
       "sha256": "9f11b1831d89cec2e2b17c1b3a9866943a0df9247ed60e9546f9897cd9b06e47"
     },
     {
+      "path": "PUBLICATION.json",
+      "bytes": 346,
+      "sha256": "1ac33a1907f535536a0f82c21263ddfcd45ef79f09ac801c91b1c42abe719ce9"
+    },
+    {
       "path": "pyproject.toml",
       "bytes": 710,
       "sha256": "8ddf62a4163b771ce1486d30b998fef9bcfc19218d86c96fb911d80e8c8976e0"
     },
     {
       "path": "README.md",
-      "bytes": 7724,
-      "sha256": "5bb769727a7ed1ea1a633ec109eceb55d06ae690a09c1cacf1e2b779b095b976"
+      "bytes": 8028,
+      "sha256": "b68298f91ee3bbbc9a223402212d9fbeaccc5d0046e94c14f0eeb1bfe04f7eaa"
     },
     {
       "path": "requirements-tested.txt",

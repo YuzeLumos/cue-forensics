@@ -1,13 +1,21 @@
 # CUE: final joint-moment CPU release candidate
 
+## Public release candidate
+
+`v0.1.0-rc1` publishes the tested core code and companion model/state assets.
+The locally executed checks and coverage limits are recorded in `VERIFY.json`
+and below; complete raw-data-to-paper-table reproduction is not claimed.
+License status is recorded in `NOTICE`.
+
+
 This candidate packages the final `JointWithinCore` used for **Evidence Is All
 You Need—But Not Forever: Open-World Continual Image Forensics**. It preserves
 the original estimator mathematics and the evidence controller. New wrappers
 provide stable imports, explicit inputs, fresh output directories, and portable
 checksums. The old `CueFDEvidenceScorer` experiment entry is not used.
 
-This is an author-review candidate. The authors have not yet selected an
-original software license; see `NOTICE` before public redistribution.
+This is a public core release candidate. The authors have not yet selected
+an original software license; the current status is stated in `NOTICE`.
 
 ## Install and run
 
